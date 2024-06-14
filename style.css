@@ -1,10 +1,36 @@
 header {
     display: flex;
     flex-direction: column;
+    background-color: #feeaa1;
+    /* just for now since i wanted to see the font in white */
 }
 
 .header-main {
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
+
+.header-main h1 {
+    font-size: 6rem;
+    font-family: 'lato', sans-serif;
+    font-weight: 600;
+    color: #fe87a2;
+    margin-bottom: 0px;
+}
+
+.header-main h2 {
+    margin-top: 0px;
+    font-family: 'lato', sans-serif;
+    color: #fe87a2;
+}
+.para-container {
+    /* border: 2px solid blue; */
+    font-family: 'lato', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+    color: rgb(117, 112, 112);
+}
+
+
